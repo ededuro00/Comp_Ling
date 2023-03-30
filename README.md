@@ -4,8 +4,9 @@
 In the GitHub folder, the following file will be found:
 1. Emosoc.py
 2. original_dataset.xlsx
-2. 1000_trials_emosoc_balanced.xlsx
-3. arrayemosoc_balanced.npy
+3. 1000_trials_emosoc_balanced.xlsx
+4. arrayemosoc_balanced.npy
+5. EmoSoc_dataset.xlsx
 
 ### EmoSoc.py
 This the proper code, once run it will show the average scores of the alghoritm (accuracy and precision) after 1000 trials. 
@@ -55,6 +56,10 @@ The code that generates the array is the following:
         vector.append(matrix[word2idx[w]])
     array = numpy.vstack(vector)
     numpy.save('arrayemosoc_balanced.npy',array)
+
+### EmoSoc_daataset.xlsx
+
+Clean dataset containing the words subdivided by cluster, with the performance of the classifier.
 
 ## References
 - Cimino A., De Mattei L., Dell’Orletta F. (2018) “Multi-task Learning in Deep Neural Networks at EVALITA 2018“. In Proceedings of EVALITA ’18, Evaluation of NLP and Speech Tools for Italian, 12-13 December, Turin, Italy.
