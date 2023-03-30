@@ -59,7 +59,7 @@ The code that generates the array is the following:
 
 ### EmoSoc_daataset.xlsx
 
-Clean dataset containing the words subdivided by cluster, with the performance of the classifier.
+Clean dataset containing the words subdivided by cluster, with the performance of the classifier. Legend of the labels is provided.
 
 ## References
 - Cimino A., De Mattei L., Dell’Orletta F. (2018) “Multi-task Learning in Deep Neural Networks at EVALITA 2018“. In Proceedings of EVALITA ’18, Evaluation of NLP and Speech Tools for Italian, 12-13 December, Turin, Italy.
