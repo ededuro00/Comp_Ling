@@ -57,7 +57,9 @@ The code that generates the array is the following:
     numpy.save('arrayemosoc_balanced.npy',array)
 
 ## References
+- Cimino A., De Mattei L., Dell’Orletta F. (2018) “Multi-task Learning in Deep Neural Networks at EVALITA 2018“. In Proceedings of EVALITA ’18, Evaluation of NLP and Speech Tools for Italian, 12-13 December, Turin, Italy.
+
+- Villani, C., Lugli, L., Liuzza, M. T., \& Borghi, A. M. (2019). Varieties of abstract concepts and their multiple dimensions. Language and Cognition: An Interdisciplinary Journal of Language and Cognitive Science, 11(3), 403–430. https://doi.org/10.1017/langcog.2019.23
 
 
 
-`code`
